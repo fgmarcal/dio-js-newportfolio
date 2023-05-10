@@ -9,27 +9,31 @@
       "hardSkills": [
         {
           "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/nodejs.png?raw=true"
         },
         {
           "name": "Javascript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/javascript.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/js.png?raw=true"
         },
         {
           "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/html.png?raw=true"
         },
         {
           "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/react.png?raw=true"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/css.png?raw=true"
         },
         {
+            "name": "Python",
+            "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/python.png?raw=true"
+          },
+        {
           "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/postgresql.png?raw=true"
         }
       ]},
     "languages": [
