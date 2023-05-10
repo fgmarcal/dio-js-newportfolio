@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header::after{
+    content: "...";
+    display: inline-block;
+    font-size: 55px;
+    color: #fff;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.header .photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.header .title {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    text-align: start;
+    max-width: 13.75rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.information p::before{
+    content: '';
+    width: 24px;
+    height: 1rem;
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5rem;
+}
+
+.information .position::before{
+    background-image: url('../img/user.png');
+}
+
+.information .location::before{
+    background-image: url('../img/marker.png');
+}
+
+.information .phone::before{
+    background-image: url('../img/phone-call.png');
+}
+
+.information .email::before{
+    background-image: url('../img/envelope.png');
+}
+
+@media only screen and (min-width: 768px){
+    .header {
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo information"
+        ;
+    }
+
+    .header .photo{
+        grid-area: photo;
+    }
+
+    .header .title{
+        grid-area: title;
+    }
+
+    .header .information{
+        grid-area: information;
+    }
+}
