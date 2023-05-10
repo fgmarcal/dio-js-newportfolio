@@ -77,12 +77,10 @@
             "url"  : "https://github.com/fgmarcal/Cpp-Experimental",
             "github" : true            
         },
-
         {
           "repo" : "Pokedex - React + Poke API",
           "url"  : "https://github.com/fgmarcal/dio-pokedex",
           "github" : true            
       }
-
     ]
   }
