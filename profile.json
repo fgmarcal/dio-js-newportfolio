@@ -55,5 +55,12 @@
         "name": "UNESP - Bacharelado em Letras com habilitação em tradutor",
         "time": "2005 - 2009"
       }
+    ],
+    "projects":[
+        {
+            "repo" : "",
+            "url"  : "",
+            "github" : true            
+        }
     ]
   }
