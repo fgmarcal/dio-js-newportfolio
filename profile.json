@@ -1,0 +1,55 @@
+{
+    "name": "Felipe G Marçal",
+    "photo": "https://avatars.githubusercontent.com/u/90734397?v=4",
+    "job": "Web developer",
+    "location": "Sertãozinho - SP",
+    "phone": "(16) 98810-1519",
+    "email": "felipegarciamarcal@gmail.com",
+    "skills": {
+      "hardSkills": [
+        {
+          "name": "Nodejs",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        },
+        {
+          "name": "Javascript",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/javascript.png"
+        },
+        {
+          "name": "HTML",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+        },
+        {
+          "name": "React",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        },
+        {
+          "name": "CSS",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+        },
+        {
+          "name": "Postgresql",
+          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        }
+      ]},
+    "languages": [
+      "Português BR",
+      "Inglês",
+      "Espanhol",
+      "Francês"
+    ],
+    "education": [
+      {
+        "name": "UNIVESP - Bacharelado em Tecnologia da Informação",
+        "time": "2022 - 2025"
+      },
+      {
+        "name": "USP - MBA Controladoria e Finanças",
+        "time": "2015 - 2016"
+      },
+      {
+        "name": "UNESP - Bacharelado em Letras com habilitação em tradutor",
+        "time": "2005 - 2009"
+      }
+    ]
+  }
