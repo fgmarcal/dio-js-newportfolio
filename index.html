@@ -20,22 +20,20 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="./assets/img/profile.jpg" alt="profile pic" class="photo">
+            <img src="https://www.whitechapelgallery.org/wp-content/uploads/2020/07/blank-head-profile-pic-for-a-man-300x284.jpg" alt="profile pic" class="photo" id="profile.photo">
             
             <h1 class="title">Olá, 
-                <br>eu sou o Felipe.
+                <br><span id="profile.name">Carregando...</span>
             </h1>
             
             <div class="information">
-                <p class="position">Web developer</p>
-                <p class="location">Sertãozinho - SP</p>
-                <p class="phone" >
-                    <a href="tel:+55 16 98810-1519">+55 16 98810-1519</a>
+                <p class="position" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:felipegarciamarcal@gmail.com">
-                    felipegarciamarcal@gmail.com
-                    </a>
+                    <a href="" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
@@ -47,16 +45,8 @@
                 </h2>                    
             </button>
             <div class="content">
-                    <section class="tech">
-                        <img src="" alt="HTML">
-                        <img src="" alt="CSS">
-                        <img src="" alt="Javascript">
-                        <img src="" alt="React.JS">
-                        <img src="" alt="Python">
-                        <img src="" alt="C/C++">
-                        <img src="" alt="Node.JS">
-                        <img src="" alt="Git">
-                        <img src="" alt="Github">
+                    <section class="tech" id="profile.skills.hardSkills">
+                        <li>Carregando...</li>
                     </section>
             </div>
         </section>
@@ -68,11 +58,8 @@
                 </h2>
             </button>
             <div class="content">
-                    <ul class="languages">
-                        <li>Português</li>
-                        <li>Inglês</li>
-                        <li>Espanhol</li>
-                        <li>Francês</li>
+                    <ul class="languages" id="profile.languages">
+                        <li>Carregando...</li>
                     </ul>
             </div>
         </section>
@@ -120,6 +107,8 @@
     </main>
 
     <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
 
