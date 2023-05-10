@@ -58,9 +58,31 @@
     ],
     "projects":[
         {
-            "repo" : "",
-            "url"  : "",
+            "repo" : "Simon Game - JQuery",
+            "url"  : "https://github.com/fgmarcal/simon-game",
             "github" : true            
-        }
+        },
+        {
+            "repo" : "Página Oficial - Basquete 3x3 - HTML e CSS",
+            "url"  : "https://github.com/fgmarcal/basquete-parque-3x3",
+            "github" : true            
+        },
+        {
+            "repo" : "Projeto de Sorteio Online - HTML, CSS e JS",
+            "url"  : "https://github.com/fgmarcal/sorteador",
+            "github" : true            
+        },
+        {
+            "repo" : "Calculadora Financeira - C++",
+            "url"  : "https://github.com/fgmarcal/Cpp-Experimental",
+            "github" : true            
+        },
+
+        {
+          "repo" : "Pokedex - React + Poke API",
+          "url"  : "https://github.com/fgmarcal/dio-pokedex",
+          "github" : true            
+      }
+
     ]
   }
