@@ -35,7 +35,7 @@ function updateHardSkills(profileData) {
 
 function updateEducation(profileData) {
     const education = document.getElementById('profile.education')
-    education.innerHTML = profileData.professionalExperience.map(educ => {
+    education.innerHTML = profileData.education.map(educ => {
         return `
             <li>
                 <p class="uni">${educ.name}</p>
