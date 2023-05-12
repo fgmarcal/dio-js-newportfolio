@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Felipe Garcia Marçal</title>
+    <title>Portfolio</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/header.css">
@@ -20,22 +20,20 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="./assets/img/profile.jpg" alt="profile pic" class="photo">
+            <img src="https://www.whitechapelgallery.org/wp-content/uploads/2020/07/blank-head-profile-pic-for-a-man-300x284.jpg" alt="profile pic" class="photo" id="profile.photo">
             
             <h1 class="title">Olá, 
-                <br>eu sou o Felipe.
+                <br> eu sou o <span id="profile.name">Carregando...</span>
             </h1>
             
             <div class="information">
-                <p class="position">Web developer</p>
-                <p class="location">Sertãozinho - SP</p>
-                <p class="phone" >
-                    <a href="tel:+55 16 98810-1519">+55 16 98810-1519</a>
+                <p class="position" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
+                <p class="phone">
+                    <a href="" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:felipegarciamarcal@gmail.com">
-                    felipegarciamarcal@gmail.com
-                    </a>
+                    <a href="" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
@@ -47,16 +45,8 @@
                 </h2>                    
             </button>
             <div class="content">
-                    <section class="tech">
-                        <img src="" alt="HTML">
-                        <img src="" alt="CSS">
-                        <img src="" alt="Javascript">
-                        <img src="" alt="React.JS">
-                        <img src="" alt="Python">
-                        <img src="" alt="C/C++">
-                        <img src="" alt="Node.JS">
-                        <img src="" alt="Git">
-                        <img src="" alt="Github">
+                    <section class="tech" id="profile.skills.hardSkills">
+                        <li>Carregando...</li>
                     </section>
             </div>
         </section>
@@ -68,11 +58,8 @@
                 </h2>
             </button>
             <div class="content">
-                    <ul class="languages">
-                        <li>Português</li>
-                        <li>Inglês</li>
-                        <li>Espanhol</li>
-                        <li>Francês</li>
+                    <ul class="languages" id="profile.languages">
+                        <li>Carregando...</li>
                     </ul>
             </div>
         </section>
@@ -84,10 +71,9 @@
                 </h2>
             </button>
             <div class="content">
-                <ul class="portfolio">
+                <ul class="portfolio" id="profile.portfolio">
                     <li>
-                        <span class="title github">Add Repo</span>
-                        <a href="https://github.com/fgmarcal" target="_blank">Github/Repo</a>
+                        Carregando...
                     </li>
                 </ul>
             </div>
@@ -100,18 +86,9 @@
                 </h2>
             </button>
             <div class="content">
-                    <ul class="education">
+                    <ul class="education" id="profile.education">
                         <li>
-                            <p class="uni">UNIVESP - Bacharelado em Tecnologia da Informação</p>
-                            <p class="time">2022 - 2025</p>
-                        </li>
-                        <li>
-                            <p class="uni">USP - MBA Controladoria e Finanças</p>
-                            <p class="time">2015 - 2016</p>
-                        </li>
-                        <li>
-                            <p class="uni">UNESP - Bacharelado em Letras com habilitação em Tradutor</p>
-                            <p class="time">2005 - 2009</p>
+                            Carregando...
                         </li>
                     </ul>
             </div>
@@ -120,5 +97,12 @@
     </main>
 
     <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
+
+
+<!-- repo base 
+https://github.com/digitalinnovationone/js-developer-portfolio/
+-->

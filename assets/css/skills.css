@@ -1,4 +1,11 @@
 .tech {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.tech img {
+    width: 80px;
+    height: 80px;
 }

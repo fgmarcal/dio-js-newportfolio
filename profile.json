@@ -42,6 +42,7 @@
       "Espanhol",
       "Francês"
     ],
+
     "education": [
       {
         "name": "UNIVESP - Bacharelado em Tecnologia da Informação",
@@ -56,11 +57,27 @@
         "time": "2005 - 2009"
       }
     ],
+
     "projects":[
-        {
-            "repo" : "",
-            "url"  : "",
-            "github" : true            
-        }
+      {
+        "repo" : "Simon Game - JQuery",
+        "url"  : "https://github.com/fgmarcal/simon-game"       
+      },
+      {
+        "repo" : "Página Oficial - Basquete 3x3 - HTML e CSS",
+        "url"  : "https://github.com/fgmarcal/basquete-parque-3x3"      
+      },
+      {
+        "repo" : "Projeto de Sorteio Online - HTML, CSS e JS",
+        "url"  : "https://github.com/fgmarcal/sorteador"     
+      },
+      {
+        "repo" : "Calculadora Financeira - C++",
+        "url"  : "https://github.com/fgmarcal/Cpp-Experimental"        
+      },
+      {
+        "repo" : "Pokedex - React + Poke API",
+        "url"  : "https://github.com/fgmarcal/dio-pokedex"      
+      }
     ]
-  }
+}
