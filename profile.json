@@ -58,7 +58,7 @@
       }
     ],
 
-    "portfolio":[
+    "project":[
       {
         "repo" : "Simon Game - JQuery",
         "url"  : "https://github.com/fgmarcal/simon-game"       
