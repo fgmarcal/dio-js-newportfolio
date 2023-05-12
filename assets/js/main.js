@@ -1,40 +1,40 @@
 function updateProfileInfo(profileData) {
-    const photo = document.getElementById('profile.photo')
+    const photo = document.getElementById('profile.photo');
     photo.src = profileData.photo
     photo.alt = profileData.name
 
-    const name = document.getElementById('profile.name')
+    const name = document.getElementById('profile.name');
     name.innerText = profileData.name
 
-    const job = document.getElementById('profile.job')
+    const job = document.getElementById('profile.job');
     job.innerText = profileData.job
 
-    const location = document.getElementById('profile.location')
+    const location = document.getElementById('profile.location');
     location.innerText = profileData.location
 
-    const phone = document.getElementById('profile.phone')
+    const phone = document.getElementById('profile.phone');
     phone.innerText = profileData.phone
     phone.href = `tel:${profileData.phone}`
 
-    const email = document.getElementById('profile.email')
+    const email = document.getElementById('profile.email');
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 }
 
 function updateLanguages(profileData) {
-    const languages = document.getElementById('profile.languages')
-    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
+    const languages = document.getElementById('profile.languages');
+    languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('');
 }
 
 
 function updateHardSkills(profileData) {
 
-    const hardSkills = document.getElementById('profile.skills.hardSkills')
-    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
+    const hardSkills = document.getElementById('profile.skills.hardSkills');
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('');
 }
 
 function updateEducation(profileData) {
-    const education = document.getElementById('profile.education')
+    const education = document.getElementById('profile.education');
     education.innerHTML = profileData.education.map(educ => {
         return `
             <li>
@@ -42,28 +42,29 @@ function updateEducation(profileData) {
                 <p class="time">${educ.time}</p>
             </li>
         `
-    }).join('')
+    }).join('');
 }
 
 
 function updatePortfolio(profileData) {
-    const portfolio = document.getElementById('profile.portfolio')
+    const portfolio = document.getElementById('profile.portfolio');
     portfolio.innerHTML = profileData.portfolio.map(port => {
+        console.log(port.repo[0])
         return `
             <li>
                 <span class="title github">${port.repo}</span>
                 <a href="${port.url}" target="_blank">${port.url}</a>
             </li>
         `
-    }).join('')
+    }).join('');
 }
 
 
 (async () => {
-    const profileData = await fetchProfileData()
-    updateProfileInfo(profileData)
-    updateLanguages(profileData)
-    updateHardSkills(profileData)
-    updateEducation(profileData)
-    updatePortfolio(profileData)
+    const profileData = await fetchProfileData();
+    updateProfileInfo(profileData);
+    updateLanguages(profileData);
+    updateHardSkills(profileData);
+    updateEducation(profileData);
+    updatePortfolio(profileData);
 })()

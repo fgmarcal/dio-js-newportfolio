@@ -42,6 +42,7 @@
       "Espanhol",
       "Francês"
     ],
+
     "education": [
       {
         "name": "UNIVESP - Bacharelado em Tecnologia da Informação",
@@ -56,6 +57,7 @@
         "time": "2005 - 2009"
       }
     ],
+
     "portfolio":[
       {
           "repo" : "Simon Game - JQuery",
@@ -77,5 +79,7 @@
           "repo" : "Pokedex - React + Poke API",
           "url"  : "https://github.com/fgmarcal/dio-pokedex"      
       }
-    ]
+    ],
+
+    "end" : "no-data"
   }
