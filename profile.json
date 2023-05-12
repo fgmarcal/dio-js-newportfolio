@@ -79,7 +79,5 @@
         "repo" : "Pokedex - React + Poke API",
         "url"  : "https://github.com/fgmarcal/dio-pokedex"      
       }
-    ],
-
-    "end" : "no-data"
-  }
+    ]
+}
