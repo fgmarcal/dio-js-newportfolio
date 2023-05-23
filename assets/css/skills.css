@@ -3,6 +3,7 @@
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tech img {
