@@ -1,12 +1,16 @@
 {
     "name": "Felipe G Marçal",
     "photo": "https://avatars.githubusercontent.com/u/90734397?v=4",
-    "job": "Web developer",
+    "job": "Junior Developer",
     "location": "Sertãozinho - SP",
     "phone": "(16) 98810-1519",
     "email": "felipegarciamarcal@gmail.com",
     "skills": {
       "hardSkills": [
+      {
+          "name": "Java",
+          "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/java.png?raw=true"
+        },
         {
           "name": "Nodejs",
           "logo": "https://github.com/digitalinnovationone/js-developer-portfolio/blob/main/data/imgs/nodejs.png?raw=true"
@@ -59,6 +63,14 @@
     ],
 
     "projects":[
+      {
+        "repo" : "Gestão de Frequencia Online (FullStack Node & React)",
+        "url"  : "https://github.com/pistz"       
+      },
+      {
+        "repo" : "Combustion App Project (Android App - Python)",
+        "url"  : "https://github.com/fgmarcal/app-combustion-py"       
+      },
       {
         "repo" : "Simon Game - JQuery",
         "url"  : "https://github.com/fgmarcal/simon-game"       
